@@ -2,7 +2,7 @@
 header#cabecario{
     border-bottom: 1px #606060 solid;
     height: 80px;
-    background: yellowgreen;
+    background: #99fce8;
     padding: 2px;
     margin: 2px;
     text-align: center;
@@ -10,7 +10,7 @@ header#cabecario{
 footer#rodape{
     border-bottom: 2px #606060 solid;
     height: 40px;
-    background: green;
+    background:#ffe64c;
     padding: 2px;
     margin: 2px;
     text-align: center;
