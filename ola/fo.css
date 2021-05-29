@@ -1,6 +1,24 @@
 @charset "UTF-8";
 header#cabecario{
     border-bottom: 1px #606060 solid;
-    height: 150px;
-    background: wheat;
+    height: 80px;
+    background: yellowgreen;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+footer#rodape{
+    border-bottom: 2px #606060 solid;
+    height: 40px;
+    background: green;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+}
+aside#imagem{
+    display: block;
+    width: 621px; 
+    padding: 5px;
+    margin: 5px;
+    box-shadow: 1px 1px 1px green;
 }
