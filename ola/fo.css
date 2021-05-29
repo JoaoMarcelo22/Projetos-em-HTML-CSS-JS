@@ -22,3 +22,14 @@ aside#imagem{
     margin: 5px;
     box-shadow: 1px 1px 1px green;
 }
+article#texto{
+    display: block;
+    float: right;
+    margin-top: -450px;
+    margin-right: 75px;
+
+}
+article#texto h4{
+    font-size: 13pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
