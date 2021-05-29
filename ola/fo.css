@@ -1,0 +1,6 @@
+@charset "UTF-8";
+header#cabecario{
+    border-bottom: 1px #606060 solid;
+    height: 150px;
+    background: wheat;
+}
