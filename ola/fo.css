@@ -32,4 +32,5 @@ article#texto{
 article#texto h4{
     font-size: 13pt;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background: silver;
 }
