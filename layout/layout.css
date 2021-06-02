@@ -1,0 +1,16 @@
+@charset "UTF-8";
+header#cabecario{
+    border-bottom: 1px #99fce8 solid;
+}
+
+aside#corpo
+{
+    border-bottom: 1px #99fce8 solid;
+}
+article#complemento
+{
+    border-bottom: 1px #99fce8 solid;
+}
+footer#rodape{
+    border-bottom: 1px #99fce8 solid;
+}
