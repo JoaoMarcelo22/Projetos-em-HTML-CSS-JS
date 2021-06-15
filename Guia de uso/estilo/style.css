@@ -1,5 +1,22 @@
 *{
     margin: 0;
     padding: 0;
-    box-shadow: rgba(rgb(201, 161, 161), rgb(132, 187, 132), rgb(150, 150, 216), alpha);
+    background-image:url('_imagens/imagem-de-fundo.jpg');
+    
+}
+h1{
+    text-align: center;
+}
+
+div#inicial{
+    display: block;
+    float: relative;
+    width: 500px;
+    height: 500px;
+    box-shadow:2px 2px 5px grey;
+    font-family: arial;
+    font-size: 15pt;
+    color: green;
+    margin: auto;
+    text-align: center;
 }
