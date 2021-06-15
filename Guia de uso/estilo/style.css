@@ -1,8 +1,11 @@
-*{
+    *{
     margin: 0;
-    padding: 0;
-    background-image:url('_imagens/imagem-de-fundo.jpg');
-    
+    padding: 0;   
+}
+body{
+    background-image: url("../_imagens/imagem-de-fundo.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1{
     text-align: center;
@@ -13,10 +16,15 @@ div#inicial{
     float: relative;
     width: 500px;
     height: 500px;
-    box-shadow:2px 2px 5px grey;
+    background-color: rgba(0, 0, 0, 0.5);
     font-family: arial;
     font-size: 15pt;
-    color: green;
+    color: rgb(128, 0, 0);
     margin: auto;
     text-align: center;
+    
+}
+div#h3{
+    margin: 2px;
+    padding: 2px;
 }
