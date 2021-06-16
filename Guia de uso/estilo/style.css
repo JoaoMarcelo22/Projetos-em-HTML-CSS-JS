@@ -5,7 +5,9 @@
 body{
     background-image: url("../_imagens/imagem-de-fundo.jpg");
     background-repeat: no-repeat;
-    background-position: center;
+    background-attachment: fixed;
+    background-size:100%;
+    background-color: #280000;
 }
 h1{
     text-align: center;
@@ -15,7 +17,7 @@ div#inicial{
     display: block;
     float: relative;
     width: 500px;
-    height: 500px;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: arial;
     font-size: 15pt;
