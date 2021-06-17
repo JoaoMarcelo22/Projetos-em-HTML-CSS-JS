@@ -18,11 +18,11 @@ div#inicial{
     display: block;
     float: relative;
     width: 500px;
-    height: 400px;
+    height: 550px;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: arial;
     font-size: 15pt;
-    color: rgb(128, 0, 0);
+    color: blue;
     margin: auto;
     text-align: center;
     
