@@ -18,16 +18,20 @@ div#inicial{
     display: block;
     float: relative;
     width: 500px;
-    height: 550px;
+    height: 400px;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: arial;
     font-size: 15pt;
-    color: blue;
+    color: rgb(128, 0, 0);
     margin: auto;
     text-align: center;
     
 }
 div#h3{
+    margin: 2px;
+    padding: 2px;
+}
+header{
     margin: 2px;
     padding: 2px;
 }
