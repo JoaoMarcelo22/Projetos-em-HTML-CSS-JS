@@ -5,7 +5,7 @@
 body{
     background-color: #5c3121;
 }
-section#caixa-text{
+iframe#descricao{
     display: block;
     float: right;
     width: 500px;
