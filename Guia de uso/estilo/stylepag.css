@@ -5,7 +5,7 @@
 body{
     background-color: #5c3121;
 }
-p{
+section#caixa-text{
     display: block;
     float: right;
     width: 500px;
