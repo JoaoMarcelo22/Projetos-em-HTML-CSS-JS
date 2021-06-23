@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #5c3121;
+}
+p{
+    display: block;
+    float: right;
+    width: 500px;
+    height: 470px;
+    margin-right: 50px;
+    margin-top: 35px;
+    box-shadow: 2px 2px 2px 2px ;
+}
+footer{
+text-align: center;
+}

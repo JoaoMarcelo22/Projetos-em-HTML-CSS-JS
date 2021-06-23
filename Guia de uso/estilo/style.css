@@ -6,8 +6,9 @@ body{
     background-image: url("../_imagens/imagem-de-fundo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:100%;
-    background-color: #280000;
+    background-position: center;
+    background-size:1000px 100%;
+    background-color:#2d0a06 ;
 }
 h1{
     text-align: center;
@@ -17,7 +18,7 @@ div#inicial{
     display: block;
     float: relative;
     width: 500px;
-    height: 400px;
+    height: 500px;
     background-color: rgba(0, 0, 0, 0.5);
     font-family: arial;
     font-size: 15pt;
@@ -33,4 +34,9 @@ div#h3{
 header{
     margin: 2px;
     padding: 2px;
+}
+footer{
+    text-align: center;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 10pt;
 }
