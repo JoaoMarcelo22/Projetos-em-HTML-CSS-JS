@@ -9,8 +9,13 @@
     <title>Monstro</title>
 </head>
 <body>
-    <img src="_imagens/monstro.png" alt="monstro">
-    <iframe src="estilo/decricao.html"name="Janela" id="descricao"></iframe>
+    <img src="_imagens/monstro.png" usemap="#mapa" alt="monstro"/>
+    <map name="mapa">
+        <area shape="rect" coords="32,402,98,415" href="estilo/decricao.html#tipo" target="Janela">
+        <area shape="rect" coords="27,21,172,69" href="estilo/decricao.html#nome" target="Janela">
+    </map>
+    <iframe src="estilo/decricao.html"name="Janela" id="descricao">
+    </iframe>
          <hr>
     <footer>&copy;Criação de João Marcelo<br> 16/05/2021</footer>  
 </body>
