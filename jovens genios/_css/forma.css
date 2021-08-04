@@ -5,6 +5,7 @@ body{
 }
 
 div#interface{
+        Color:black
 	width: 500px;
 	height: 500px;
 	margin: 10px auto 10px auto;
