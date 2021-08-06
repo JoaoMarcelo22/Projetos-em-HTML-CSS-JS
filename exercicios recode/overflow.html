@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>display</title>
+    <style>
+        div{ 
+            width: 60px;
+            height: 60px;
+        }
+        p{  border: 2px solid red;
+            width: 60px;
+            height: 60px;
+        }
+        
+        #tw{
+            position: absolute;
+            
+            margin-left: 250px;
+        }
+        #tr{position: absolute;
+            
+            margin-left: 550px;
+
+        }
+        #fo{position: absolute;
+            
+            margin-left: 850px;
+
+        }
+
+        #um {overflow: visible; /*visivel, mesmo explodindo o conteudo*/
+            
+        }
+        #dois{overflow: hidden; /*corta o conteudo que explode*/
+            
+        }
+        #tres{overflow: scroll; /*mostra as barra de rolagem*/
+            
+        }
+        #quatro{overflow: auto; /*mostra a barra de rolagem apenas se o conteudo explodir*/
+            
+        }
+        
+    </style>
+</head>
+<body>
+    <ul>
+        <div >
+        <li id="um"> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias tempora molestiae itaque tenetur, similique quaerat magni doloribus esse veritatis expedita aliquid? Ratione fugiat error, magni eaque ullam laborum quam. Lorem ipsum dolor sit amet consectetur, </p></li> 
+    </div>
+        <div id="tw">
+        <li id="dois"> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias tempora molestiae itaque tenetur, similique quaerat magni doloribus esse veritatis expedita aliquid? Ratione fugiat error, magni eaque ullam laborum quam. Lorem ipsum dolor sit amet consectetur, </p></li> 
+    </div>
+        <div id="tr">
+        <li id="tres"> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias tempora molestiae itaque tenetur, similique quaerat magni doloribus esse veritatis expedita aliquid? Ratione fugiat error, magni eaque ullam laborum quam. Lorem ipsum dolor sit amet consectetur, </p></li> 
+    </div>
+        <div id="fo"> <p>
+        <li id="quatro">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum molestias tempora molestiae itaque tenetur, similique quaerat magni doloribus esse veritatis expedita aliquid? Ratione fugiat error, magni eaque ullam laborum quam. Lorem ipsum dolor sit amet consectetur,</p></li> 
+    </div>
+    </ul>
+    
+</body>
+</html>
