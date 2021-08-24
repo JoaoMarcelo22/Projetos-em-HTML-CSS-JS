@@ -1,0 +1,9 @@
+body{
+    background-color: #46F0BD;
+    display: inline;
+}
+nav h1{
+    display: inline;
+    margin: 20px;
+    padding: 2px;
+}
