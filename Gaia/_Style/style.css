@@ -1,9 +1,18 @@
+*{
+    background-color: #48faf7;
+}
 body{
+    height: 200px;
+    width: 200px;
     background-color: #46F0BD;
     display: inline;
 }
 nav h1{
     display: inline;
     margin: 20px;
-    padding: 2px;
+    padding: 5px;
+}
+nav a{
+    background-color:#466cf0 ;
+    color:#000000 ;
 }
